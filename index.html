@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./layter.css">
+    
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" class="box" placeholder="0">
+        <div class="buttons">
+            <button class="clear" onclick="change('c')">AC</button>
+            <button class="clear" onclick="del()">DEL</button>
+            <button onclick="list('.')">.</button>
+             <button class="oprator" onclick="list('%')">%</button>
+            <button onclick="list('7')">7</button>
+            <button onclick="list('8')">8</button>
+            <button onclick="list('9')">9</button>
+            <button class="oprator" onclick="list('/')">/</button>
+
+            <button onclick="list('4')">4</button>
+            <button onclick="list('5')">5</button>
+            <button onclick="list('6')">6</button>
+            <button class="oprator" onclick="list('*')">*</button>
+
+            <button onclick="list('1')">1</button>
+            <button onclick="list('2')">2</button>
+            <button onclick="list('3')">3</button>
+            <button class="oprator" onclick="list('-')">-</button>
+
+            
+            <button class="zero" onclick="list('0')">0</button>
+            <button class="eqval" onclick="addcaluculator('=')">=</button>
+            <button class="oprator" onclick="list('+')">+</button>
+        </div>
+    </div>
+</body>
+<script src="layter.js"></script>
+</html>
